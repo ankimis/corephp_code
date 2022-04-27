@@ -1,0 +1,19 @@
+
+.gm{
+    background-image: url('inde.jpg');
+    background-position: center;
+    background: no-repeat;
+    width: 100%;
+}
+
+
+#confirm{
+    background-color: none;
+    text-align: center;
+}
+.form{
+    
+    background-color:none ;
+    text-align: left;
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>ragistration form</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+        body {
+          background-image: url("inde.jpg");
+        }
+        </style>
+</head>
+<body>
+    
+    
+    <h1 id="confirm">please check and submit form for addmisson</h1>
+    <form>
+        <div class="form">
+            Current Time:
+<input type="text" id="currentTime">
+ 
+<script>
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  document.getElementById("currentTime").value = time;
+</script><br><br><br><br>
+
+        <label type="text">firstname:</label>
+        <input type="text" name="firstname" id="firstName"placeholder="please enter your name"><br><br>
+        <label type="text">lastname:</label>
+        <input type="text" name="lastname" id="lastname"placeholder="please enter your lastname"><br><br>
+        <label type="text">addrees:</label>
+        <input type="text" name="addrees" id="addrees"placeholder="please enter your addrees"><br><br>
+        <h5>please enter your detail</h5>
+        <input type="checkbox" name="">i have a car
+        <input type="checkbox" name="">i have a home
+        <input type="checkbox" name="">i have a bike
+        <select id="city">
+            <option value="">--Please choose an addrees--</option>
+            <option value="pune">pune</option>
+            <option value="agra">agra</option>
+        </select><br><br>
+        
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="trip-start"
+               value="2018-07-22"
+               min="2018-01-01" max="2018-12-31">
+        
+
+       <h3>please select your gender</h3> 
+        <input type="radio"name="gender">male
+        <input type="radio"name="gender">   FEmale 
+
+
+        <br><br>
+        <input type="submit"name="submit"> 
+    </div>
+        
+    
+    
+    </form>
+</body>
+</html>
